@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: DiscriMiner_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/DiscriMiner_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DiscriMiner/DiscriMiner_{{ version }}.tar.gz
@@ -36,7 +35,7 @@ test:
 
 about:
   home: http://www.gastonsanchez.com
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Functions for Discriminant Analysis and Classification purposes covering various methods
     such as descriptive, geometric, linear, quadratic, PLS, as well as qualitative discriminant
     analyses
@@ -46,9 +45,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
