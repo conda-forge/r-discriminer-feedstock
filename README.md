@@ -1,11 +1,11 @@
-About r-discriminer
-===================
+About r-discriminer-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-discriminer-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.gastonsanchez.com
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-discriminer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for Discriminant Analysis and Classification purposes covering various methods such as descriptive, geometric, linear, quadratic, PLS, as well as qualitative discriminant analyses
 
